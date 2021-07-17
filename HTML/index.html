@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Form validation</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="heading"><h1 id="heading">Welcome To UETM</h1></div>
+        <div id="alert"></div>
+        <form action="">
+            
+            <label for="name">User Name</label>
+            <div class="inputs" id="username">
+                    <input type="text" id="name" name="name" placeholder="Full Name">
+                    <div id="nameerror"></div>
+            </div>
+
+            <label for="email">Email Address</label>
+            <div class="inputs" id="EmailAddress">
+                <input type="text" id="email" name="email" placeholder="Email">
+                <div id="emailerror"></div>
+            </div>
+
+            <label for="Pnum">Phone No</label>
+            <div class="inputs" id="PhoneNum">
+                <input type="number" id="Pnum" name="Pnum" placeholder="xxxxxxxxxxx">
+                <div id="phoneerror"></div>
+            </div>
+            <div class="btns">
+                <button type="submit" id="submitbtn">submit</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+<script src="/JS/index.js"></script>
+</html>
